@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTitle, SheetDescription, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import { useState } from "react";
 import { Button } from "../ui/button";
@@ -11,7 +11,7 @@ const Navbar = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <nav className="bg-liga-primary p-3">
+        <nav className="bg-liga-primary p-3 sticky top-0 z-50">
             <div className="flex justify-between items-center">
                 <Link to="/">
                     <img src={logo} alt="logo" className="w-25 h-12" />
@@ -24,6 +24,10 @@ const Navbar = () => {
                             <Menu className="w-7 h-7 text-white cursor-pointer" />
                         </SheetTrigger>
                         <SheetContent side="left" className="bg-liga-primary text-white">
+                            <SheetTitle className="sr-only">Menú de navegación</SheetTitle>
+                            <SheetDescription className="sr-only">
+                                Menú para navegar entre las secciones de la aplicación.
+                            </SheetDescription>
                             <div className="flex flex-col gap-2 mt-10 p-4">
                                 <Link to="/" onClick={() => setOpen(false)} className="hover:underline">Tabla</Link>
                                 <Link to="/favoritos" onClick={() => setOpen(false)} className="hover:underline">Favoritos</Link>
@@ -35,12 +39,12 @@ const Navbar = () => {
                 {/* Desktop*/}
                 <div className="hidden md:flex items-center gap-4">
                     <Link to="/">
-                        <Button className="bg-liga-secondary text-white hover:bg-liga-secondary cursor-pointer">
+                        <Button className="bg-liga-secondary text-white hover:bg-liga-secondary cursor-pointer rounded-xs">
                             Tabla
                         </Button>
                     </Link>
                     <Link to="/favoritos">
-                        <Button className="bg-liga-secondary text-white hover:bg-liga-secondary cursor-pointer">
+                        <Button className="bg-liga-secondary text-white hover:bg-liga-secondary cursor-pointer rounded-xs">
                             Favoritos
                         </Button>
                     </Link>

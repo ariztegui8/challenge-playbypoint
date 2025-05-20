@@ -1,0 +1,125 @@
+{
+    "teams": [
+      {
+        "id": 1,
+        "name": "River Plate",
+        "wins": 8,
+        "draws": 7,
+        "losses": 1,
+        "points": 25,
+        "badge": "https://www.ligaprofesional.ar/wp-content/uploads/2024/06/RIV-Clubes.png",
+        "description": "Club Atlético River Plate es uno de los clubes más grandes de Argentina."
+      },
+      {
+        "id": 2,
+        "name": "Boca Juniors",
+        "wins": 10,
+        "draws": 3,
+        "losses": 3,
+        "points": 33,
+        "badge": "https://www.ligaprofesional.ar/wp-content/uploads/2024/06/BOC-escudo.png",
+        "description": "Club Atlético Boca Juniors es uno de los clubes más populares de Argentina."
+      },
+      {
+        "id": 3,
+        "name": "Independiente",
+        "wins": 8,
+        "draws": 5,
+        "losses": 3,
+        "points": 29,
+        "badge": "https://www.ligaprofesional.ar/wp-content/uploads/2024/06/IND-escudo.png",
+        "description": "Club Atlético Independiente, conocido como El Rojo."
+      },
+      {
+        "id": 4,
+        "name": "Racing",
+        "wins": 9,
+        "draws": 1,
+        "losses": 6,
+        "points": 28,
+        "badge": "https://www.ligaprofesional.ar/wp-content/uploads/2024/06/RAC-escudo.png",
+        "description": "Racing Club, conocido como La Academia del fútbol argentino."
+      },
+      {
+        "id": 5,
+        "name": "Estudiantes",
+        "wins": 5,
+        "draws": 6,
+        "losses": 5,
+        "points": 21,
+        "badge": "https://www.ligaprofesional.ar/wp-content/uploads/2024/06/ELP-Clubes.png",
+        "description": "Estudiantes, cuatro veces campeón de la Libertadores."
+      },
+      {
+        "id": 6,
+        "name": "Vélez",
+        "wins": 4,
+        "draws": 2,
+        "losses": 10,
+        "points": 14,
+        "badge": "https://www.ligaprofesional.ar/wp-content/uploads/2024/06/VEL-escudo.png",
+        "description": "Club Atlético Vélez Sarsfield, uno de los clubes más importantes de los 90."
+      },
+      {
+        "id": 7,
+        "name": "Tigre",
+        "wins": 8,
+        "draws": 3,
+        "losses": 5,
+        "points": 27,
+        "badge": "https://www.ligaprofesional.ar/wp-content/uploads/2024/06/TIG-Clubes.png",
+        "description": "Tigre es un club del conurbano bonaerense con historia en Primera."
+      },
+      {
+        "id": 8,
+        "name": "Talleres",
+        "wins": 2,
+        "draws": 7,
+        "losses": 7,
+        "points": 13,
+        "badge": "https://www.ligaprofesional.ar/wp-content/uploads/2024/06/TAL-Clubes.png",
+        "description": "Talleres es uno de los clubes más representativos del interior argentino."
+      },
+      {
+        "id": 9,
+        "name": "Rosario Central",
+        "wins": 10,
+        "draws": 5,
+        "losses": 1,
+        "points": 35,
+        "badge": "https://www.ligaprofesional.ar/wp-content/uploads/2024/06/RC-escudo.png",
+        "description": "Club Atlético Rosario Central, con fuerte tradición en el fútbol rosarino."
+      },
+      {
+        "id": 10,
+        "name": "Newell's",
+        "wins": 5,
+        "draws": 4,
+        "losses": 7,
+        "points": 19,
+        "badge": "https://www.ligaprofesional.ar/wp-content/uploads/2024/06/NOB-escudo.png",
+        "description": "Newell's Old Boys, club formador de grandes jugadores como Messi."
+      },
+      {
+        "id": 11,
+        "name": "Belgrano",
+        "wins": 3,
+        "draws": 8,
+        "losses": 5,
+        "points": 17,
+        "badge": "https://www.ligaprofesional.ar/wp-content/uploads/2024/06/BEL-Clubes.png",
+        "description": "Club Atlético Belgrano, de la ciudad de Córdoba."
+      },
+      {
+        "id": 12,
+        "name": "Central Córdoba",
+        "wins": 5,
+        "draws": 3,
+        "losses": 8,
+        "points": 18,
+        "badge": "https://www.ligaprofesional.ar/wp-content/uploads/2025/01/Central-Cordoba-Escudo-2025.png",
+        "description": "Central Córdoba de Santiago del Estero, con reciente participación en Primera División."
+      }
+    ]
+}
+  
