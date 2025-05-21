@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "json-server": "json-server --watch teams-db.json --port 3001",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",

@@ -26,6 +26,7 @@ const TableTeams = () => {
                     <TableHead>G</TableHead>
                     <TableHead>E</TableHead>
                     <TableHead>P</TableHead>
+                    <TableHead></TableHead>
                 </TableRow>
             </TableHeader>
             <TableBody>
