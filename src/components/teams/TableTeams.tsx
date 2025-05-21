@@ -8,13 +8,18 @@ import {
     TableRow,
 } from "../ui/table";
 import Team from "./Team";
+import { useFilters } from "../../hooks/useFilters";
 
 const TableTeams = () => {
+    
     const { data, loading, error } = useFetch<TeamType[]>("http://localhost:3001/teams");
+    const { getSortFilteredTeam } = useFilters();
 
     if (loading) return <p>Cargando equipos...</p>;
     if (error) return <p>Error al cargar: {error.message}</p>;
+    if (!data) return null;
 
+    const sortFilteredTeam = getSortFilteredTeam(data);
 
     return (
         <Table className="border border-gray-200 rounded-md">
@@ -30,7 +35,7 @@ const TableTeams = () => {
                 </TableRow>
             </TableHeader>
             <TableBody>
-                {data?.map((team, index) => (
+                {sortFilteredTeam.map((team, index) => (
                     <Team
                         key={team.id}
                         team={team}
