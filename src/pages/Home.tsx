@@ -4,7 +4,7 @@ const Home = () => {
 
 
   return (
-    <div className="p-3 max-w-3xl mx-auto">
+    <div className="px-3 py-6 max-w-3xl mx-auto">
 
       <div className="py-6">
         <h1 className="text-2xl md:text-4xl font-bold text-center">Torneo Apertura Betano 2025</h1>

@@ -1,5 +1,5 @@
 import { useState, useEffect, type ReactNode } from "react";
-import type { TeamType } from "../types/types";
+import type { TeamType } from "../../types/types";
 import { FavoritesContext } from "./FavoritesContext";
 
 export const FavoritesProvider = ({ children }: { children: ReactNode }) => {

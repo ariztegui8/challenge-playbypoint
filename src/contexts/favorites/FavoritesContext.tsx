@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import type { TeamType } from "../types/types";
+import type { TeamType } from "../../types/types";
 
 export type FavoritesContextType = {
   favorites: TeamType[];

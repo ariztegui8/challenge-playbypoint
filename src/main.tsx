@@ -3,8 +3,8 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
 import { BrowserRouter } from 'react-router-dom';
-import { FavoritesProvider } from './contexts/FavoritesProvider.tsx';
-import { FiltersProvider } from './contexts/FiltersProvider.tsx';
+import { FavoritesProvider } from './contexts/favorites/FavoritesProvider';
+import { FiltersProvider } from './contexts/filters/FiltersProvider';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

@@ -1,5 +1,5 @@
 import { useState, type ReactNode } from "react";
-import type { TeamType } from "../types/types";
+import type { TeamType } from "../../types/types";
 import { FiltersContext, type SortField } from "./FiltersContext";
 
 export const FiltersProvider = ({ children }: { children: ReactNode }) => {

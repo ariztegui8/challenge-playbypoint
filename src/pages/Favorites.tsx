@@ -5,7 +5,7 @@ const Favorites = () => {
   const { favorites, removeFavorite } = useFavorites();
 
   return (
-    <div className="p-3">
+    <div className="px-3 py-6">
       <div className="max-w-4xl mx-auto">
       {favorites.length === 0 ? (
         <p className="text-gray-500 text-xl md:text-2xl font-semibold text-center">No tienes equipos favoritos aún.</p>
